@@ -49,7 +49,7 @@ JavaScript (ES6) – game logic
 
 Clone the repository
 
-git clone https://github.com/Shivam-Jha007/rock-paper-scissors.git
+git clone https:https://shivam-jha007.github.io/RocKPaperScissors
 
 
 Open the folder
