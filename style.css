@@ -14,8 +14,8 @@ h1{
 }
 
 .choice{
-    height:160px;
-    width:160px;
+    height:130px;
+    width:130px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -47,11 +47,26 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:2rem;
+    gap:4rem;
     font-size: 2rem;
+    margin-top: 3rem;
 }
 
 #user-score, #comp-score{
-    font-size:;
+    font-size: 3rem;
+}
+
+
+.messageContainer{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color:purple;
+    color:beige;
+    font-size: 2rem;
+    padding:1rem; /* creates the breathing room for the elements witthin the box it gives space between the edge and the content of box */
+    display:inline;   /* jitne part me hamara content hai utne part me hi ye styling aaegi */
+    border-radius: 1rem;
 
 }
