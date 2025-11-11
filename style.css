@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1{
+    background-color:rgb(70, 8, 70);
+    color: white;
+    height: 4rem;
+    line-height: 4rem;    /*this is a trick to cente the text vertically give it a line height as same as the heigth of div*/
+
+
+}
+
+.choice{
+    height:160px;
+    width:160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+     height:100px;
+    width:100px;
+    object-fit: cover;  /*for fitting the image */
+    border-radius: 40%;  /* for coverting the imags to a circle */
+    
+}
+.choices{
+    display: flex;  /* this atrribute of dive helps aline the items inside in a line */
+    justify-content: center; /*vertically and horizontally align krne k lie*/
+    align-items: center;
+    gap:3rem;
+    margin-top: 3rem;
+
+}
+
+.choice:hover{      /*this ensures the styling applicable on hovering over our choices; */   
+    cursor: pointer; 
+    background-color:black;  
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size:;
+
+}
